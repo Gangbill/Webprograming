@@ -1,0 +1,22 @@
+<%@ page contentType="text/html; charset=utf-8"%>
+<%@ page errorPage="isErrorPage2.jsp"%>
+<html>
+<head>
+<link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+<title>Exception</title>
+</head>
+<body>	
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+<div class = "container-fluid py-5">
+<h1 class = "display-5 fw-bold">Error 검사</h1>
+</div>
+</div>
+	<%
+		String num1 = request.getParameter("num1");
+		String num2 = request.getParameter("num2");
+		int a = Integer.parseInt(num1);
+		int b = Integer.parseInt(num2);
+	%>
+
+</body>
+</html>
