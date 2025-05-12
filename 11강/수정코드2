@@ -1,0 +1,11 @@
+    <div class="card mb-4">
+        <div class="card-body">
+            <p>숫자1 : <span class="badge bg-primary"><%= num1 %></span></p>
+            <p>숫자2 : <span class="badge bg-primary"><%= num2 %></span></p>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <a href="form.jsp" class="btn btn-primary">홈 돌아가기</a>
+</div>
